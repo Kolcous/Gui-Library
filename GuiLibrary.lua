@@ -79,7 +79,7 @@ UIPadding.Parent = background
 UIPadding.PaddingLeft = UDim.new(0, 10)
 UIPadding.PaddingTop = UDim.new(0, 10)
 
-UIPadding.InputBegan:Connect(function(input, Chat)
+uiui.InputBegan:Connect(function(input, Chat)
 	if not Chat then
 		if input.KeyCode == Enum.KeyCode.E then
 			if uiui.Enabled == true then
